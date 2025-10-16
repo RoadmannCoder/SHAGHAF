@@ -16,7 +16,7 @@ Logo styles - Comprehensive fix for logo inversion issues
   width: auto;
   display: block;
   transition: all 0.3s ease;
-  content: url("img/logo/logo-dark.png");
+  content: url("../img/logo/logo-dark.png");
 }
 
 /* 
@@ -36,7 +36,7 @@ Logo styles - Comprehensive fix for logo inversion issues
 
 /* Override for the menu frame - always use light logo due to dark background */
 .mil-menu-frame .mil-logo img {
-  content: url("img/logo/logo-light.png") !important;
+  content: url("../img/logo/logo-light.png") !important;
 }
 
 /* 
